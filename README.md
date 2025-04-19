@@ -1,74 +1,74 @@
-# Portfolio App
+# ポートフォリオアプリ
 
-A Notion-like portfolio website for showcasing your projects, articles, and work. Built with modern web technologies, this application allows you to create, manage, and search through your portfolio items with ease.
+プロジェクト、記事、作品を紹介するためのNotionライクなポートフォリオウェブサイトです。最新のWeb技術で構築されており、ポートフォリオアイテムの作成、管理、検索を簡単に行うことができます。
 
-## 🌟 Features
+## 🌟 機能
 
-### Content Management
-- **Article Creation**: Create rich articles with text, images, and URLs
-- **Image Upload**: Seamlessly upload images via Cloudinary integration
-- **URL Embedding**: Add multiple URLs to your articles for reference
-- **CRUD Operations**: Create, read, update, and delete your portfolio items
+### コンテンツ管理
+- **記事作成**: テキスト、画像、URLを含む豊かな記事を作成
+- **画像アップロード**: Cloudinary連携によるシームレスな画像アップロード
+- **URL埋め込み**: 参照用に記事に複数のURLを追加
+- **CRUD操作**: ポートフォリオアイテムの作成、読み取り、更新、削除
 
-### User Experience
-- **Responsive Design**: Works on desktop and mobile devices
-- **Search Functionality**: Quickly find articles by title, content, or tags
-- **Intuitive UI**: Clean, modern interface inspired by Notion
-- **Real-time Updates**: Changes reflect immediately in the UI
+### ユーザーエクスペリエンス
+- **レスポンシブデザイン**: デスクトップとモバイルデバイスで動作
+- **検索機能**: タイトル、コンテンツ、タグで記事をすばやく検索
+- **直感的なUI**: Notionにインスパイアされたクリーンでモダンなインターフェース
+- **リアルタイム更新**: 変更がUIにすぐに反映
 
-### Technical Features
-- **Firebase Integration**: Secure and scalable data storage with Firestore
-- **Cloudinary Integration**: Efficient image hosting and management
-- **TypeScript Support**: Type-safe code for better development experience
-- **Component-Based Architecture**: Modular and maintainable codebase
+### 技術的特徴
+- **Firebase連携**: Firestoreによる安全でスケーラブルなデータストレージ
+- **Cloudinary連携**: 効率的な画像ホスティングと管理
+- **TypeScriptサポート**: より良い開発体験のための型安全なコード
+- **コンポーネントベースのアーキテクチャ**: モジュール化され保守性の高いコードベース
 
-## 🚀 Live Demo
+## 🚀 ライブデモ
 
-Visit the live application: [Portfolio App](https://notion-fork-website-36z0c4tl.devinapps.com)
+アプリケーションにアクセス: [ポートフォリオアプリ](https://notion-fork-website-36z0c4tl.devinapps.com)
 
-## 🛠️ Technology Stack
+## 🛠️ 技術スタック
 
-### Frontend
-- **React**: UI library for building component-based interfaces
-- **TypeScript**: Typed JavaScript for better developer experience
-- **Vite**: Next-generation frontend tooling for fast development
-- **Shadcn/UI**: High-quality UI components built with Radix UI and Tailwind CSS
-- **React Router**: Declarative routing for React applications
+### フロントエンド
+- **React**: コンポーネントベースのインターフェースを構築するためのUIライブラリ
+- **TypeScript**: より良い開発者体験のための型付きJavaScript
+- **Vite**: 高速な開発のための次世代フロントエンドツール
+- **Shadcn/UI**: Radix UIとTailwind CSSで構築された高品質UIコンポーネント
+- **React Router**: Reactアプリケーションの宣言的ルーティング
 
-### Backend & Storage
-- **Firebase Firestore**: NoSQL database for storing article data
-- **Firebase Authentication**: (Optional) User authentication system
-- **Cloudinary**: Cloud-based image management solution
+### バックエンド＆ストレージ
+- **Firebase Firestore**: 記事データを保存するためのNoSQLデータベース
+- **Firebase Authentication**: （オプション）ユーザー認証システム
+- **Cloudinary**: クラウドベースの画像管理ソリューション
 
-### Deployment
-- **GitHub**: Version control and code hosting
-- **Vercel**: Platform for frontend deployment and hosting
+### デプロイ
+- **GitHub**: バージョン管理とコードホスティング
+- **Vercel**: フロントエンドのデプロイとホスティングのためのプラットフォーム
 
-## 📋 Prerequisites
+## 📋 前提条件
 
-Before you begin, ensure you have:
-- Node.js (v16 or later)
-- npm or yarn package manager
-- Firebase project
-- Cloudinary account
+始める前に、以下を確認してください：
+- Node.js（v16以降）
+- npmまたはyarnパッケージマネージャー
+- Firebaseプロジェクト
+- Cloudinaryアカウント
 
-## 🔧 Installation & Setup
+## 🔧 インストール＆セットアップ
 
-1. **Clone the repository**
+1. **リポジトリのクローン**
    ```bash
    git clone https://github.com/kirorotarzan/devin_test.git
    cd devin_test
    ```
 
-2. **Install dependencies**
+2. **依存関係のインストール**
    ```bash
    npm install
-   # or
+   # または
    yarn install
    ```
 
-3. **Configure environment variables**
-   Create a `.env` file in the root directory with the following variables:
+3. **環境変数の設定**
+   ルートディレクトリに`.env`ファイルを作成し、以下の変数を設定します：
    ```
    VITE_FIREBASE_API_KEY=your-api-key
    VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
@@ -81,99 +81,99 @@ Before you begin, ensure you have:
    VITE_CLOUDINARY_API_SECRET=your-api-secret
    ```
 
-4. **Start the development server**
+4. **開発サーバーの起動**
    ```bash
    npm run dev
-   # or
+   # または
    yarn dev
    ```
 
-5. **Build for production**
+5. **本番用ビルド**
    ```bash
    npm run build
-   # or
+   # または
    yarn build
    ```
 
-## 📱 Usage Guide
+## 📱 使用ガイド
 
-### Creating an Article
-1. Click the "Create New Article" button on the home page
-2. Fill in the title and content fields
-3. Upload an image (optional)
-4. Add URLs (optional)
-5. Click "Create" to save your article
+### 記事の作成
+1. ホームページの「Create New Article」ボタンをクリック
+2. タイトルとコンテンツフィールドに入力
+3. 画像をアップロード（オプション）
+4. URLを追加（オプション）
+5. 「Create」をクリックして記事を保存
 
-### Editing an Article
-1. Find the article you want to edit in the article list
-2. Click the "Edit" button on the article card
-3. Make your changes in the form
-4. Click "Update" to save your changes
+### 記事の編集
+1. 記事リストから編集したい記事を見つける
+2. 記事カードの「Edit」ボタンをクリック
+3. フォームで変更を加える
+4. 「Update」をクリックして変更を保存
 
-### Searching for Articles
-1. Use the search bar at the top of the article list
-2. Type keywords related to the article title, content, or tags
-3. Results will filter in real-time as you type
+### 記事の検索
+1. 記事リストの上部にある検索バーを使用
+2. 記事のタイトル、コンテンツ、またはタグに関連するキーワードを入力
+3. 入力に応じてリアルタイムで結果がフィルタリングされる
 
-### Deleting an Article
-1. Find the article you want to delete in the article list
-2. Click the "Delete" button on the article card
-3. Confirm the deletion when prompted
+### 記事の削除
+1. 記事リストから削除したい記事を見つける
+2. 記事カードの「Delete」ボタンをクリック
+3. 確認メッセージが表示されたら削除を確認
 
-## 🧩 Project Structure
+## 🧩 プロジェクト構造
 
 ```
 portfolio-app/
-├── public/                  # Static assets
+├── public/                  # 静的アセット
 ├── src/
 │   ├── components/
-│   │   ├── portfolio/       # Portfolio-specific components
+│   │   ├── portfolio/       # ポートフォリオ固有のコンポーネント
 │   │   │   ├── ArticleCard.tsx
 │   │   │   ├── ArticleForm.tsx
 │   │   │   └── ArticleList.tsx
-│   │   └── ui/              # UI components from shadcn/ui
-│   ├── firebase/            # Firebase configuration and services
+│   │   └── ui/              # shadcn/uiのUIコンポーネント
+│   ├── firebase/            # Firebase設定とサービス
 │   │   ├── config.ts
 │   │   └── articleService.ts
-│   ├── hooks/               # Custom React hooks
+│   ├── hooks/               # カスタムReactフック
 │   │   └── use-mobile.ts
-│   ├── types/               # TypeScript type definitions
+│   ├── types/               # TypeScript型定義
 │   │   ├── index.ts
 │   │   └── cloudinary.d.ts
-│   ├── App.tsx              # Main application component
-│   └── main.tsx             # Application entry point
-├── .env                     # Environment variables
-├── package.json             # Project dependencies and scripts
-└── tsconfig.json            # TypeScript configuration
+│   ├── App.tsx              # メインアプリケーションコンポーネント
+│   └── main.tsx             # アプリケーションエントリーポイント
+├── .env                     # 環境変数
+├── package.json             # プロジェクト依存関係とスクリプト
+└── tsconfig.json            # TypeScript設定
 ```
 
-## 🔍 API Reference
+## 🔍 APIリファレンス
 
-### Firebase Article Service
+### Firebase記事サービス
 
 ```typescript
-// Get all articles
+// すべての記事を取得
 getArticles(): Promise<Article[]>
 
-// Get a single article by ID
+// IDで単一の記事を取得
 getArticle(id: string): Promise<Article | null>
 
-// Create a new article
+// 新しい記事を作成
 createArticle(article: Omit<Article, 'id' | 'createdAt' | 'updatedAt'>): Promise<string>
 
-// Update an existing article
+// 既存の記事を更新
 updateArticle(id: string, article: Partial<Omit<Article, 'id' | 'createdAt'>>): Promise<void>
 
-// Delete an article
+// 記事を削除
 deleteArticle(id: string): Promise<void>
 ```
 
-### Cloudinary Image Upload
+### Cloudinary画像アップロード
 
-The application uses Cloudinary's upload API for image management:
+アプリケーションはCloudinaryのアップロードAPIを画像管理に使用しています：
 
 ```typescript
-// Upload an image to Cloudinary
+// Cloudinaryに画像をアップロード
 const uploadImage = async (file: File) => {
   const formData = new FormData();
   formData.append('file', file);
@@ -193,24 +193,24 @@ const uploadImage = async (file: File) => {
 };
 ```
 
-## 🤝 Contributing
+## 🤝 貢献
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+貢献は歓迎します！プルリクエストを自由に提出してください。
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. リポジトリをフォーク
+2. 機能ブランチを作成（`git checkout -b feature/amazing-feature`）
+3. 変更をコミット（`git commit -m 'Add some amazing feature'`）
+4. ブランチにプッシュ（`git push origin feature/amazing-feature`）
+5. プルリクエストを開く
 
-## 📄 License
+## 📄 ライセンス
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+このプロジェクトはMITライセンスの下でライセンスされています - 詳細はLICENSEファイルを参照してください。
 
-## 📞 Contact
+## 📞 連絡先
 
-If you have any questions or feedback, please reach out to the repository owner.
+質問やフィードバックがある場合は、リポジトリの所有者にお問い合わせください。
 
 ---
 
-Built with ❤️ using React, TypeScript, Firebase, and Cloudinary.
+React、TypeScript、Firebase、Cloudinaryを使用して❤️で構築されました。
